@@ -1,0 +1,1 @@
+def fonction(N, Q, R)
