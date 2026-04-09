@@ -19,6 +19,8 @@ deuxieme = problimite(N_2, Q_2, R_2, 0, 6, T, T_a)
 A = [1, 1], [np.exp(k*L), np.exp(-k*L)]
 b_sol = [T-T_a, 0]
 solution = np.linalg.solve(A, b_sol)
+
+
 def T_exacte(x):
      return T_a+solution[0]*np.exp(k*x)+solution[1]*np.exp(-k*x)
 print(premier)
@@ -37,7 +39,6 @@ plt.ylabel('T(x)')
 plt.title('Solution de l\'équation différentielle avec \n les valeurs de h=1, h=2 et la solution exacte')
 plt.legend()
 plt.show()
-
 
 
 h_1 = L/3
