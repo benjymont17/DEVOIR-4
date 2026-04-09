@@ -34,6 +34,14 @@ plt.plot(x_2, deuxieme, label='h=1')
 plt.plot(x_exacte, T_exacte(x_exacte), label='solution exacte')
 plt.xlabel('x')
 plt.ylabel('T(x)')
-plt.title('Solution de l\'équation différentielle avec les valeurs de h=1, h=2 et la solution exacte')
+plt.title('Solution de l\'équation différentielle avec \n les valeurs de h=1, h=2 et la solution exacte')
 plt.legend()
 plt.show()
+
+
+
+h_1 = L/3
+h_2 = L/6
+h_3 = L/100
+h_4 = L/10^3
+h_5 = L/10^4
